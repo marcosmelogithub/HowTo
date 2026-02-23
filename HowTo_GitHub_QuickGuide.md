@@ -113,7 +113,7 @@
 > O repositório local está "*commitado*" no github
 
 ---
-### 3. Sequência lógica para um repositório já existente
+### 3. Sequência lógica para um repositório existente no github
 
 **3.1.** Executar o item 1.10
 > **a)** É bastante recomendado que antes que inicie as manutenções em um repositório, faça um clone do último *commit* para garantir que está partindo de uma posição atualizada
@@ -124,8 +124,7 @@
 **3.2.** Realizar as manutenções
 **3.3.** Executar o item 1.2.
 **3.4.** Executar o item 1.5.
-**3.5.** Executar o item 1.7., Comando II
-**3.6.** Executar o item 1.8.
+**3.5.** Executar o item 1.8.
 > O repositório local está "*commitado*" no github
 **
 ---
