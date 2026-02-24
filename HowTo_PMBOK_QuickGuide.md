@@ -1,4 +1,4 @@
-# PMBOK (Project Management Body of Knowledge)
+# PMBOK (Project Management Body of Knowledge) Quick Guide
 
 Guia de melhores práticas, conceitos, processos, ferramentas e técnicas padronizadas para gerenciar projetos, publicado pelo PMI (Project Management Institute), servindo como uma referência mundial para gestores de projetos de qualquer área, independentemente da metodologia (Cascata, Híbrida, Ágil). 
 

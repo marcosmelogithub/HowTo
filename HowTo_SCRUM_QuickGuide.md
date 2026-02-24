@@ -1,6 +1,6 @@
-# SCRUM
+# SCRUM Quick Guide
 
-> **Definição:** Framework para gerenciamento de projetos
+> Framework para gerenciamento ágil de projetos
 
 ---
 > **Componentes do SCRUM**

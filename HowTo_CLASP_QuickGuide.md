@@ -1,7 +1,6 @@
-## Como versionar projetos Google Apps Script usando CLASP
-
----
-> O ***CLASP (Command Line Apps Script Projects)*** é uma ferramenta oficial do Google que permite gerenciar seus projetos localmente no seu computador via terminal.
+# CLASP Quick Guide
+> Como versionar projetos Google Apps Script usando CLASP
+>> O ***CLASP (Command Line Apps Script Projects)*** é uma ferramenta oficial do Google que permite gerenciar/versionar projetos Google Apps Scripts localmente no seu computador via terminal.
 
 ----
 
