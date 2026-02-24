@@ -14,21 +14,45 @@
 | | | 5. Sprint Retrospective | |
 
 ---
+> **Os 3 blocos do SCRUM**
+
+| Artefatos | Papéis | Cerimônias |
+| :-- | :-- | :-- |
+| 1. Product Backlog | 1. Product Owner| 1. Sprint Planning |
+| 2. Sprint Backlog | 2. Scrum Master | 2. Daily Scrum (Stand-up meeting) |
+| 3. Incremento| 3. Scrum Team | 3. Sprint Review |
+||| 4. Sprint Retrospective|
+
+
+---
 > **Visão geral do fluxo do SCRUM**
 
 ```mermaid
 flowchart TD
-    A[Necessidade do Cliente]
-    A-->B[Declaração de Visão do Projeto]
-    B-->D[Backlog do Produto]
-    D-->E[Sprint Planning]
-    E-->F[Sprint Backlog]
-    F-->G[Execução da Sprint 2-4 semanas]
-    G-->H[Daily]
+    A[**Necessidade**
+    Product Owner e Cliente]
+    A-->B[**Declaração de Visão
+    do Projeto**
+    Product Owner]
+    B-->D[**Backlog do Produto**
+    Product Owner]
+    D-->E[**Sprint Planning**
+    Product Owner e 
+    Scrum Master]
+    E-->F[**Sprint Backlog**
+    Scrum Master]
+    F-->G[**Execução da Sprint
+    2-4 semanas**
+    Time Dev]
+    G-->H[**Daily**
+    Scrum Master, Scrum Team]
     H-->I{Encerrou a Sprint?}
     I-->|Não|F
-    I-->|SIM|J[Sprint Review]
-    J-->K[Sprint Retrospective]
+    I-->|SIM|J[**Sprint Review**
+    Product Owner,
+    Scrum Master, Stackholders]
+    J-->K[**Sprint Retrospective**
+    Scrum Master, Scrum Team]
     K-->L{Tem backlog?}
     L-->|SIM|D
     L-->|NÃO|M[Projeto Encerrado]
@@ -77,10 +101,3 @@ flowchart TD
 |3. Identificar e resolver problemas que impeçam o progresso da sprint, garantindo e mantendo o foco no objetivo|3. Gerenciar o Product Log: criar, detalhar, refinar e priorizar o que deverá ser entregue prioritariamente com objetivo de entregar maior valor|
 |4. Orientar a todos envolvidos no projeto sobre SCRUM, valores e métodos ágeis, autogestão, melhoria contínua, processos e fluxos|4. Garantir à equipe SCRUM e partes interessadas do cliente o entendimento claro do que será construído, metas e visão do produto|
 |5. Facilitar a comunicação entre todos os envolvidos no projeto: SCRUM Team, PO, stakeholders. usuários, ...|5. Avaliar e aceitar/rejeitar as entregas nas Sprint Review|
-
----
->**História do usuário:** descrição de uma funcionalidade sob a perspectiva do usuário cobrindo "quem", "o quê" e "porquê"
-
-|Estrutura da história|Exemplo|
-|:--|:--|
-|*Como [usuário], quero [funcionalidade], para que [valor]*|***Como** cliente, eu **quero** poder pesquisar produtos por preço, **para que** eu possa encontrar facilmente opções que caibam no meu orçamento*|
