@@ -190,3 +190,9 @@
 >**Comando**
 >```dir -hidden```
 >> **a)** Com esse comando será possível ver a pasta oculta *.git*
+
+**4.4.** Executar aplicação no servidor do VSCode
+>**Comando**
+>```npx serve```
+>> **a)** Com esse comando será possível executar a aplicação no browser
+>> **b)** Toda vez que a aplicação for atualizada, o browser será atualizado automaticamente
